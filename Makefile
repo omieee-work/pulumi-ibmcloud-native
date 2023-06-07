@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi IBMCloud Resource Provider
 
-PACK             := xyz
+PACK             := ibmcloud
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @pulumi/xyz
-NUGET_PKG_NAME   := Pulumi.Xyz
+PROJECT          := github.com/pulumi/pulumi-ibmcloud
+NODE_MODULE_NAME := @pulumi/ibmcloud
+NUGET_PKG_NAME   := Pulumi.IBMCloud
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)

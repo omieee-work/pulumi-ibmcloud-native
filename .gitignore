@@ -11,3 +11,6 @@ yarn.lock
 ci-scripts
 /nuget/
 provider/**/schema-embed.json
+.history
+.DS_Store
+**/.DS_Store
